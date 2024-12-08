@@ -29,8 +29,8 @@ Installation 🔧
 
     ```bash
 
-    git clone https://github.com/codebasics/project-genai-post-generator.git
-    cd project-genai-post-generator
+    git clone https://github.com/ishi-ta-lal/Linkedin-Post-Generator
+    cd Linkedin-Post-Generator
     ```
 
 2.  Install dependencies:
