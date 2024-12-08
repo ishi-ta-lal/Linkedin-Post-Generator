@@ -10,7 +10,6 @@ Key Features 🚀
 -   **Customizable Templates**: Offers flexibility to tailor outputs to match user preferences.
 -   **Multilingual Support**: Create posts in multiple languages to reach a global audience.
 -   **User-Friendly Interface**: Simplifies the process of generating content with an intuitive design.
--   **Open-Source**: Built with a community-driven approach, inviting contributions from developers worldwide.
 
 Table of Contents 📚
 --------------------
@@ -28,31 +27,28 @@ Installation 🔧
 
 1.  Clone the repository:
 
-    bash
-
-    Copy code
+    ```bash
 
     `git clone https://github.com/codebasics/project-genai-post-generator.git
-    cd project-genai-post-generator`
+    cd project-genai-post-generator ```
 
 2.  Install dependencies:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `pip install -r requirements.txt`
+    pip install -r requirements.txt
+    ```
 
 3.  Set up environment variables:
 
     -   Create a `.env` file and add required API keys or configuration details.
 4.  Start the application:
 
-    bash
+    ```bash
 
-    Copy code
 
-    `python app.py`
+    python main.py
+    ```
 
 * * * * *
 
@@ -70,11 +66,8 @@ Usage 💻
 Technologies Used 🛠️
 ---------------------
 
--   **Backend**: Flask / FastAPI
--   **Frontend**: HTML, CSS, JavaScript
--   **AI Models**: OpenAI GPT (or similar Generative AI APIs)
--   **Database**: SQLite / MongoDB
--   **Deployment**: Docker / Render
+-   **Frontend**: Streamlit
+-   **AI Models**: Groq
 
 * * * * *
 
@@ -86,33 +79,20 @@ Contributions are welcome!
 1.  Fork the repository.
 2.  Create a feature branch:
 
-    bash
-
-    Copy code
-
-    `git checkout -b feature-name`
+    ```bash
+    git checkout -b feature-name
+    ```
 
 3.  Commit your changes and push them:
 
-    bash
+    ```bash
 
-    Copy code
-
-    `git push origin feature-name`
+    git push origin feature-name
+    ```
 
 4.  Submit a pull request.
 
 * * * * *
 
-License 📜
-----------
 
-This project is licensed under the MIT License.
 
-* * * * *
-
-Acknowledgements 🙌
--------------------
-
--   [Codebasics](https://github.com/codebasics) for the amazing project idea and development.
--   Generative AI technologies for making content creation more accessible.
